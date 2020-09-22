@@ -16,6 +16,8 @@ namespace BaiTap2
             const int endNum= 999;
             int sum = 0;
             int user = 0;
+            Console.WriteLine("============ Sum Int ==============");
+            Console.WriteLine("Enter your number (Enter 999 to Exit)");
             do
             {
                 user = int.Parse(Console.ReadLine());
